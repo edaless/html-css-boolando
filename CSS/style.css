@@ -146,5 +146,22 @@ main{
 
 footer{
     background: black;
-    height: 80px;
+    height: 80px;    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: white;
+    font-size: 12px;
+
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+    margin-right: 4px;
 }
