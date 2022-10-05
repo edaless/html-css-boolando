@@ -3,3 +3,65 @@
     padding:0;
     box-sizing: border-box;
 }
+
+header{
+    background: orange;
+    
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    margin-top: -60px;
+    /* z-index: 2; */
+}
+main{
+    margin-top: 60px;
+    /* debug */
+    background: grey;
+    /* height: 100px; */
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.prodotto{
+    width: 20%;
+    margin: 2vh 1%;
+    position: relative;
+
+    /* debug */
+    height: 40vh;
+    background: aqua;
+}
+.img{
+    height: 50vh;
+    width: auto;
+}
+.spazio-etichette{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+
+    /* debug */
+    /* background: black; */
+
+
+}
+.etichetta{
+
+    color: white;
+    font-weight: 400;
+    padding: 1px 5px;
+
+}
+.sconto{
+    background: red;
+    margin-right: 0.5%;
+}
+.sostenibilità{
+    background: rgb(76, 167, 15);
+}
+
+footer{
+    background: black;
+    height: 80px;
+}
