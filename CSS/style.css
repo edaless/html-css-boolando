@@ -11,22 +11,47 @@ header{
     width: 100%;
     position:fixed;
     margin-top: -60px;
-    /* z-index: 2; */
+    z-index: 200;
+    display: flex;
+    align-items: center;
+
+ 
 }
 section{
     width: 70%;
     margin-left: 15%;
     
     /* debug */
-    background: rgb(16, 166, 141);
+    /* background: rgb(16, 166, 141); */
     /* height: 10px; */
 
 
 }
+header section{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.genere{
+    color:white;
+    margin-right: 3px;
+    /* font-size: 10px; */
+
+}
+.logo{
+    width: 100px;
+    height:auto;
+}
+.segni{
+    width: 155px;
+    text-align: right;
+    color:white;
+}
 main{
     margin-top: 60px;
     /* debug */
-    background: grey;
+    /* background: grey; */
     /* height: 100px; */
 }
 .row{
@@ -41,12 +66,40 @@ main{
 
     /* debug */
     /* height: 40vh; */
-    background: aqua;
+    /* background: aqua; */
 }
-.img{
+.img1{
     width: 100%;
-    height: auto;
+    height: 400px;
+    /* z-index: 4; */
+    
+    position: absolute;
+    top:0;
+    left:0;
 }
+.img2{
+    width: 100%;
+    height: 400px;
+}
+.prodotto:hover .img1{
+    display:none;
+}
+
+.cuore{
+    position: absolute;
+    right: 0;
+    top: 2%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background: white;
+}
+
+
+
 .spazio-etichette{
     position: absolute;
     bottom: 20%;
